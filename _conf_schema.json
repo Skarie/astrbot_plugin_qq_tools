@@ -1,0 +1,57 @@
+{
+  "enabled": {
+    "description": "总开关",
+    "type": "bool",
+    "default": true
+  },
+  "allowed_users": {
+    "description": "允许使用命令的QQ（逗号分隔，留空=所有人）",
+    "type": "string",
+    "default": ""
+  },
+  "like_times": {
+    "description": "资料卡点赞默认次数（1-50，QQ 有每日上限）",
+    "type": "int",
+    "default": 10
+  },
+  "qzone_cookie_domain": {
+    "description": "获取QQ空间Cookie使用的域名",
+    "type": "string",
+    "default": "qzone.qq.com"
+  },
+  "auto_emoji_enable": {
+    "description": "自动发表情（拟人）：机器人每次文字回复后按概率补一个官方表情",
+    "type": "bool",
+    "default": true
+  },
+  "auto_emoji_probability": {
+    "description": "自动发表情触发概率(%)",
+    "type": "int",
+    "default": 35
+  },
+  "auto_emoji_cooldown": {
+    "description": "同一会话冷却(秒)，防刷屏",
+    "type": "int",
+    "default": 30
+  },
+  "auto_emoji_delay_min": {
+    "description": "自动发表情延迟下限(毫秒)，模拟说话停顿",
+    "type": "int",
+    "default": 400
+  },
+  "auto_emoji_delay_max": {
+    "description": "自动发表情延迟上限(毫秒)",
+    "type": "int",
+    "default": 1600
+  },
+  "auto_emoji_in_group": {
+    "description": "群聊是否自动发表情",
+    "type": "bool",
+    "default": true
+  },
+  "auto_emoji_in_private": {
+    "description": "私聊是否自动发表情",
+    "type": "bool",
+    "default": true
+  }
+}

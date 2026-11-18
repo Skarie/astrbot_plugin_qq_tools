@@ -1,0 +1,10 @@
+name: astrbot_plugin_qq_tools
+display_name: QQ 工具箱
+version: 1.0.0
+author: Skarie
+desc: QQ 工具箱：资料卡点赞 / 官方表情（含拟人自动发表情）/ QQ空间说说赞评发 / 空友爱看浏览互动
+repo: https://github.com/Skarie/astrbot_plugin_qq_tools
+entry: main.py
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.16,<5"
